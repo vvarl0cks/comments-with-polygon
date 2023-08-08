@@ -22,4 +22,15 @@ Here's what we're going to build:
 
 https://user-images.githubusercontent.com/5760059/154543585-74136a91-bac1-4935-8790-c943b71f43df.mov
 
-Visit the tutorial to get started https://www.pointer.gg/tutorials/create-a-web3-forum-with-polygon/1cb8f005-08f4-48a2-9d82-cd963e16f7f1
+Visit the tutorial to get started https://www.pointer.gg/tutorials/create-a-web3-forum-with-polygon/1cb8f005-08f4-48a2-9d82-cd963e16f7f1   
+
+### Deploy Contract   
+
+```bash
+gitpod /workspace/Comments-on-Chain/comments-with-polygon (main) $ npx hardhat compile
+Downloading compiler 0.8.4
+Compiling 2 files with 0.8.4
+Solidity compilation finished successfully
+gitpod /workspace/Comments-on-Chain/comments-with-polygon (main) $ npx hardhat run --network matic scripts/deploy-and-seed.js
+Contract deployed to: 0x8c39F80511D54C97c3efEef8Cd8E2271F4C47CD0
+```
